@@ -16,5 +16,6 @@ user2 = { userId: 102, userName: 'Rakib' };
 users.push(user2);
 // console.log(users);
 for (var key in users) {
-    console.log(key);
+    // console.log(key);
+    console.log(users[key]['userName']);
 }
